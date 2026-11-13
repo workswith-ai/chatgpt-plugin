@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "workswith-ai",
+  "version": "0.1.0",
+  "description": "Connect with your organization through workswith.ai.",
+  "author": { "name": "workswith.ai", "url": "https://workswith.ai" },
+  "homepage": "https://workswith.ai",
+  "repository": "https://github.com/workswith-ai/chatgpt-plugin",
+  "license": "MIT",
+  "keywords": ["workswith", "workswith.ai"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "workswith.ai",
+        "shortDescription": "Your org's work, in ChatGPT",
+        "longDescription": "Connects ChatGPT to your organization on workswith.ai: its Types, Records and Processes, and the Actions you may invoke. Sign in with workswith.ai and choose what ChatGPT may do: read, act, and build.",
+        "developerName": "workswith.ai",
+        "category": "Productivity",
+        "capabilities": [
+          "Read Types, Records and Processes",
+          "Invoke Actions",
+          "Build workflows and ontology drafts"
+        ],
+        "websiteURL": "https://workswith.ai",
+        "privacyPolicyURL": "https://workswith.ai/privacy",
+        "composerIcon": "./assets/logo.svg",
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}
